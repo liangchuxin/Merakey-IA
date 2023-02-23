@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="141px" viewBox="0 0 126 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit-3</title>
+    <defs>
+        <filter x="-23.8%" y="-51.9%" width="147.5%" height="203.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.470588235   0 0 0 0 0.847058824   0 0 0 0 0.741176471  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M42.5,8.5503397 L7.08333333,43.9670064 L7.08333333,53.125 L16.241327,53.125 L51.6579936,17.7083333 L42.5,8.5503397 Z M45.0043365,1.03733015 L59.1710032,15.2039968 C60.55411,16.5871037 60.55411,18.829563 59.1710032,20.2126699 L20.2126699,59.1710032 C19.5484785,59.8351945 18.6476417,60.2083333 17.7083333,60.2083333 L3.54166667,60.2083333 C1.58565818,60.2083333 0,58.6226752 0,56.6666667 L0,42.5 C0,41.5606916 0.37313881,40.6598548 1.03733015,39.9956635 L39.9956635,1.03733015 C41.3787703,-0.345776717 43.6212297,-0.345776717 45.0043365,1.03733015 Z M3.54166667,77.9166667 L67.2916667,77.9166667 C69.2476752,77.9166667 70.8333333,76.3310085 70.8333333,74.375 C70.8333333,72.4189915 69.2476752,70.8333333 67.2916667,70.8333333 L3.54166667,70.8333333 C1.58565818,70.8333333 0,72.4189915 0,74.375 C0,76.3310085 1.58565818,77.9166667 3.54166667,77.9166667 Z" id="path-2"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.35">
+        <g id="User-Home" transform="translate(-900.000000, -237.000000)">
+            <g id="编组-13" transform="translate(402.000000, 256.000000)">
+                <g id="编组-14" filter="url(#filter-1)" transform="translate(312.000000, 0.000000)">
+                    <g id="edit-3" transform="translate(219.083333, 10.541667)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <g id="COLOR/-black" mask="url(#mask-3)" fill="#FFFFFF">
+                            <g transform="translate(-7.083333, -3.541667)" id="Rectangle">
+                                <rect x="0" y="0" width="85" height="85"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

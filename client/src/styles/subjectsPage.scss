@@ -1,0 +1,132 @@
+.page-container {
+  background: url("https://ik.imagekit.io/herjourney/main_bg_2.d153ac6_W5jyeNA-n.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645940640690")
+    fixed;
+  width: 100vw;
+  min-height: calc(-79px + 100vh);
+  .bg-title {
+    opacity: 0.22;
+    font-family: Poppins-Black;
+    font-size: 253px;
+    color: #474747;
+    letter-spacing: 33px;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    top: 100px;
+    user-select: none;
+    z-index: 0;
+  }
+  .main-subjects {
+    position: relative;
+    z-index: 1;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-family: Poppins-Black;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 147px;
+  }
+  h2 {
+    font-family: Poppins-Regular;
+    font-size: 23px;
+    color: #d0d0d0;
+    text-align: center;
+    font-weight: 400;
+    // margin-top: 34px;
+  }
+  .separator {
+    background: #ffcd34;
+    border-radius: 5px;
+    width: 56px;
+    height: 4px;
+    margin: 33px auto 0;
+  }
+  .main-bg-overlay {
+    width: 100vw;
+    background: #151515;
+    position: absolute;
+    height: 270px;
+    z-index: -2;
+    bottom: 0;
+  }
+  .subject-card-container {
+    display: flex;
+    width: 100vw;
+    // background-color: pink;
+    justify-content: center;
+    .subject-card {
+      height: 273px;
+      position: relative;
+      width: 500px;
+      background-position: center;
+      background-size: 100%;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin: 51px;
+      cursor: pointer;
+      transition: 0.3s;
+      .bg-overlay {
+        background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 45%,
+          #000000 100%
+        );
+        width: 500px;
+        height: 273px;
+        border-radius: 5px;
+      }
+      .subject-icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 5px;
+        position: absolute;
+        top: 44px;
+        left: 38px;
+        background: #ffcd34;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .subject-meta {
+        position: absolute;
+        bottom: 31px;
+        left: 44px;
+        .subject-name {
+          font-family: Poppins-Bold;
+          font-size: 38px;
+          color: #fffcfc;
+          font-weight: 700;
+        }
+        .topics {
+          text-transform: uppercase;
+          font-family: Poppins-SemiBold;
+          font-size: 18px;
+          color: #fffcfc;
+          letter-spacing: 4.8px;
+          font-weight: 600;
+          text-align: left;
+          margin-top: 11px;
+          img {
+            margin-right: 13px;
+          }
+        }
+      }
+      .displaced-bg {
+        width: 500px;
+        height: 273px;
+        position: absolute;
+        right: -4px;
+        bottom: -4px;
+        z-index: -1;
+        background: #ffcd34;
+        border-radius: 5px;
+      }
+    }
+    .subject-card:hover {
+      background-size: 120%;
+    }
+  }
+}

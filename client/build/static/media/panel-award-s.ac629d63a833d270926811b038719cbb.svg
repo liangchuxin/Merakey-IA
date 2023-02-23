@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="75px" viewBox="0 0 73 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>award</title>
+    <defs>
+        <filter x="-23.8%" y="-51.9%" width="147.5%" height="203.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.933333333   0 0 0 0 0.596078431   0 0 0 0 0.478431373  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M5,0 C7.76142375,0 10,2.23857625 10,5 C10,6.61812752 9.23134534,8.05672612 8.03924944,8.97058236 L8.74457071,14.2927982 C8.81340508,14.8116159 8.2522212,15.1802017 7.80344015,14.9109331 L7.80344015,14.9109331 L5,13.228869 L2.19655985,14.9109331 C1.74774314,15.1802231 1.18652697,14.8115586 1.25544106,14.2927095 L1.25544106,14.2927095 L1.96174822,8.97134697 C0.769083541,8.05752867 0,6.61857888 0,5 C0,2.23857625 2.23857625,0 5,0 Z M5,10 C4.34059569,10 3.71100485,9.87235337 3.1345892,9.64042184 L2.6652773,13.1719646 L4.67844015,11.9640669 C4.87636664,11.845311 5.12363336,11.845311 5.32155985,11.9640669 L5.32155985,11.9640669 L7.33492608,13.1720867 L6.86641905,9.64001602 C6.28972935,9.87220447 5.6597888,10 5,10 Z M5,1.25 C2.92893219,1.25 1.25,2.92893219 1.25,5 C1.25,7.07106781 2.92893219,8.75 5,8.75 C5.73240527,8.75 6.41577052,8.54003474 6.99318671,8.17701328 C7.01400978,8.15957262 7.03643056,8.14480189 7.05985358,8.13147936 C8.07840451,7.46290117 8.75,6.30988035 8.75,5 C8.75,2.92893219 7.07106781,1.25 5,1.25 Z" id="path-2"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Home" transform="translate(-1017.000000, -250.000000)">
+            <g id="编组-13" transform="translate(402.000000, 256.000000)">
+                <g id="编组-14" filter="url(#filter-1)" transform="translate(623.000000, 0.000000)">
+                    <g id="award" transform="translate(23.500000, 24.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <g id="COLOR/-black" mask="url(#mask-3)" fill="#FFFFFF">
+                            <g transform="translate(-2.500000, 0.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,107 @@
+div.title-container {
+  display: flex;
+  ul {
+    display: flex;
+    margin-top: 65px;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  h2 {
+    margin-right: 15px;
+  }
+  li {
+    margin-right: 25px;
+    font-size: 14px;
+    position: relative;
+    font-weight: bold;
+    color: #5e6269;
+    cursor: pointer;
+  }
+  li.active {
+    color: #ffcd34;
+  }
+  li.active::before {
+    content: "";
+    left: 0;
+    right: 1px;
+    width: 100%;
+    border-radius: 1.5px;
+    height: 1px;
+    background-color: #ffcd34;
+    position: absolute;
+    top: 26.5px;
+    box-sizing: border-box;
+    transform: translate(0%, -50%);
+  }
+  li.active::after {
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 24px;
+    border-bottom: 3px solid #ffcd34;
+    border-top: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+}
+.game-card {
+  overflow: visible !important;
+  .card-descriptions {
+    position: relative;
+    overflow: visible;
+    // z-index: 99;
+  }
+  .menu-container {
+    position: absolute;
+    top: 6.5px;
+    right: -5px;
+    z-index: 5;
+    padding: 7.5px 3px;
+    width: 20px;
+    border-radius: 50%;
+    display: none;
+    img {
+      margin: 0 auto;
+      margin-right: auto !important;
+      margin-bottom: 0 !important;
+      display: block;
+    }
+  }
+  .fade-in {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .fade-in.active {
+    opacity: 1;
+  }
+  .card-menu {
+    position: fixed;
+    background-color: #282828;
+    border-radius: 5px;
+    width: 150px;
+    padding: 6px 6px 7px;
+    z-index: 9999;
+    // top: 40px;
+    // right: -60px;
+    a {
+      display: block;
+      padding: 7px 12px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    a:hover {
+      background: #111111;
+    }
+  }
+  .menu-container:hover {
+    // border: 1.5px solid rgba(49, 49, 49, 0.94);
+    background: #222222;
+  }
+}
+.game-card:hover {
+  .menu-container {
+    display: block;
+    transition: 0.3s;
+  }
+}

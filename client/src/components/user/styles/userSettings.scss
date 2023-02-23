@@ -1,0 +1,39 @@
+.user-main {
+  input.setting-field,
+  textarea,
+  select {
+    font-family: poppins;
+    width: 600px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1.5px solid #292828;
+    color: #c6c6c6;
+    margin: 5px 0;
+    background: #1f1f1f;
+    outline: none;
+  }
+  input.setting-field:focus {
+    border: 1.5px solid #6a6a6a;
+  }
+  select {
+    cursor: pointer;
+  }
+  .submit-btn {
+    font-family: poppins-medium;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.5px solid #6a6a6a;
+    color: #6a6a6a;
+    // background-color: #ffcd34;
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    transition: 0.4s;
+  }
+  .submit-btn:hover {
+    background-color: #59595929;
+  }
+}

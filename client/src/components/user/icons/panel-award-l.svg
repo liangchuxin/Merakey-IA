@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="147px" viewBox="0 0 119 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>award</title>
+    <defs>
+        <filter x="-23.8%" y="-51.9%" width="147.5%" height="203.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.933333333   0 0 0 0 0.596078431   0 0 0 0 0.478431373  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M28.3333333,0 C43.9814012,0 56.6666667,12.6852654 56.6666667,28.3333333 C56.6666667,37.5044618 52.3093044,45.6578738 45.5519026,50.8362465 L49.5525673,80.992523 C49.9426288,83.9324903 46.7625868,86.021143 44.2194942,84.4952874 L44.2194942,84.4952874 L28.3333333,74.9635909 L12.4471725,84.4952874 C9.90387782,86.0212642 6.72365281,83.9321655 7.11416602,80.9920206 L7.11416602,80.9920206 L11.1187747,50.8393194 C4.35908645,45.6610997 0,37.5062761 0,28.3333333 C0,12.6852654 12.6852654,0 28.3333333,0 Z M28.3333333,56.6666667 C24.5960722,56.6666667 21.0278115,55.9430892 17.7610022,54.6283851 L15.103238,74.6411329 L26.5111609,67.7963792 C27.6327443,67.1234291 29.0339223,67.1234291 30.1555058,67.7963792 L30.1555058,67.7963792 L41.5645811,74.6418244 L38.9096579,54.6267776 C35.6417632,55.9424994 32.0721174,56.6666667 28.3333333,56.6666667 Z M28.3333333,7.08333333 C16.5972824,7.08333333 7.08333333,16.5972824 7.08333333,28.3333333 C7.08333333,40.0693843 16.5972824,49.5833333 28.3333333,49.5833333 C32.4586819,49.5833333 36.3094679,48.4077913 39.5689874,46.3734114 C39.7393936,46.2379219 39.9243331,46.1180613 40.120782,46.0158061 C45.8262439,42.2059987 49.5833333,35.7084236 49.5833333,28.3333333 C49.5833333,16.5972824 40.0693843,7.08333333 28.3333333,7.08333333 Z" id="path-2"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.35">
+        <g id="User-Home" transform="translate(-1220.000000, -231.000000)">
+            <g id="编组-13" transform="translate(402.000000, 256.000000)">
+                <g id="编组-14" filter="url(#filter-1)" transform="translate(623.000000, 0.000000)">
+                    <g id="award" transform="translate(226.166667, 7.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <g id="COLOR/-black" mask="url(#mask-3)" fill="#FFFFFF">
+                            <g transform="translate(-14.166667, 0.000000)" id="Rectangle">
+                                <rect x="0" y="0" width="85" height="85"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

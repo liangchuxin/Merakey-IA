@@ -1,0 +1,42 @@
+.signup-container.background {
+  padding-top: 213px;
+  .split-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 121px;
+  }
+  .titles {
+    .tip {
+      text-transform: uppercase;
+      font-family: Poppins-Medium;
+      font-size: 21px;
+      color: #9d9d9d;
+      font-weight: 500;
+      text-align: left;
+    }
+    h1 {
+      text-align: left;
+      line-height: 67px;
+      font-size: 60px;
+      margin-top: 0;
+      margin-bottom: 29px;
+      span {
+        font-size: 36px;
+        margin-bottom: -10px;
+      }
+    }
+    .description {
+      font-family: Poppins-Regular;
+      font-size: 23px;
+      color: #9d9d9d;
+      font-weight: 400;
+      text-align: left;
+      line-height: 37px;
+      width: 359px;
+    }
+  }
+  .form-group {
+    margin-bottom: 25px;
+  }
+}

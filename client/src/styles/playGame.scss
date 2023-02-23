@@ -1,0 +1,185 @@
+.playGame {
+  background: url("https://ik.imagekit.io/herjourney/main_bg_2.d153ac6_W5jyeNA-n.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645940640690");
+  display: flex;
+  flex-direction: row;
+  height: calc(-79px + 100vh);
+  .chapters {
+    width: 25%;
+    background-color: rgba(256, 256, 256, 0.15);
+    .game-info {
+      margin-left: 23px;
+      padding-bottom: 15px;
+
+      p {
+        margin: 10px 10px;
+        text-align: left;
+      }
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .cover {
+      width: calc(-20px + 100%);
+      margin: 10px auto;
+      border-radius: 5px;
+    }
+    // padding-top: 30px;
+    .current-info {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 15px;
+      border-top: 1px solid #494949;
+    }
+    p {
+      text-align: left;
+      font-size: 16px;
+      color: #969696;
+      opacity: 1;
+      font-weight: 400;
+      font-family: Poppins;
+      transition: 0.4s;
+      margin: 3px 0;
+      cursor: pointer;
+      span {
+        font-size: 80%;
+        border: 1px solid #969696;
+        padding: 2px 5px;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
+    }
+    .lv0 {
+      margin-left: 29px;
+    }
+    .lv1 {
+      margin-left: 47px;
+    }
+    .lv2 {
+      margin-left: 96px;
+    }
+    p:hover {
+      color: white;
+    }
+  }
+  .story {
+    width: 55%;
+    padding: 0;
+    position: relative;
+    img {
+      width: 540px;
+      margin-top: 20px;
+    }
+    .progress-container {
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+      position: relative;
+      z-index: 100;
+      .progress {
+        position: absolute;
+        left: 0;
+        background-color: #ffcd34;
+        box-shadow: 0px 0px 7px 0px #ffcd34;
+        height: 2px;
+        transition: 0.3s;
+      }
+    }
+    .summary {
+      padding: 0 112px;
+      margin-top: 40px;
+    }
+  }
+  p.summary {
+    overflow: scroll;
+    height: 440px;
+    white-space: pre-line;
+    color: #a6a4a4;
+    text-align: left;
+    margin-bottom: 0px;
+    font-family: poppins;
+  }
+  .questions {
+    width: 23%;
+    background-color: rgba(256, 256, 256, 0.15);
+    text-align: left;
+    padding: 30px;
+    position: relative;
+    h3 {
+      font-size: 20px;
+    }
+    .question-container {
+      background-color: rgba(256, 256, 256, 0.15);
+      font-family: Poppins;
+      font-size: 14px;
+      padding: 13px 61px 13px 13px;
+      margin: 10px 0;
+      color: #ffffff;
+      border-radius: 3px;
+      position: relative;
+    }
+    .question-container.correct::after {
+      content: "";
+      background: url("../images/check.svg");
+      position: absolute;
+      background-size: 13px 13px;
+      width: 13px;
+      height: 13px;
+      right: 46px;
+      top: 18px;
+      right: 18px;
+    }
+    .question-container.wrong::after {
+      content: "";
+      background: url("../images/x.svg");
+      position: absolute;
+      background-size: 11px;
+      width: 11px;
+      height: 11px;
+      top: 18px;
+      right: 20px;
+    }
+  }
+}
+.wrong-questions {
+  top: calc(-54px + 50vh);
+  position: absolute;
+  right: 30px;
+  left: 30px;
+}
+.download-box {
+  color: #d3d3d3;
+  font-family: Poppins;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid #969696;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 3px;
+  img {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 13px;
+  }
+}
+.download-box:hover {
+  background-color: rgba(256, 256, 256, 0.15);
+}
+.input {
+  color: #d0d0d0;
+  font-family: poppins;
+  border: 1px #969696 solid;
+  position: absolute;
+  left: 112px;
+  bottom: 50px;
+  background: transparent;
+  padding-left: 12.51px;
+  width: calc(-224px + 100%);
+  margin-top: 9px;
+  margin-bottom: 9px;
+  height: 45px;
+  border-radius: 3px;
+}
+input:focus {
+  outline: none;
+}

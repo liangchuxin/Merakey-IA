@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chevron-up</title>
+    <defs>
+        <path d="M4.66666667,1.60947571 L8.19526215,5.13807119 C8.45561167,5.39842072 8.87772166,5.39842072 9.13807119,5.13807119 C9.39842072,4.87772166 9.39842072,4.45561167 9.13807119,4.19526215 L5.13807119,0.195262146 C4.87772166,-0.065087382 4.45561167,-0.065087382 4.19526215,0.195262146 L0.195262146,4.19526215 C-0.065087382,4.45561167 -0.065087382,4.87772166 0.195262146,5.13807119 C0.455611674,5.39842072 0.87772166,5.39842072 1.13807119,5.13807119 L4.66666667,1.60947571 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="搜索页" transform="translate(-757.000000, -507.000000)">
+            <g id="编组-7" transform="translate(670.000000, 497.000000)">
+                <g id="chevron-up" transform="translate(87.333333, 10.333333)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#5E6269" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="COLOR/-black" mask="url(#mask-2)" fill="#5E6269">
+                        <g transform="translate(-3.333333, -5.333333)" id="Rectangle">
+                            <rect x="0" y="0" width="16" height="16"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>clock</title>
+    <defs>
+        <path d="M9.625,0 C14.9407407,0 19.25,4.30925928 19.25,9.625 C19.25,14.9407407 14.9407407,19.25 9.625,19.25 C4.30925928,19.25 0,14.9407407 0,9.625 C0,4.30925928 4.30925928,0 9.625,0 Z M9.625,1.75 C5.2757576,1.75 1.75,5.2757576 1.75,9.625 C1.75,13.9742424 5.2757576,17.5 9.625,17.5 C13.9742424,17.5 17.5,13.9742424 17.5,9.625 C17.5,5.2757576 13.9742424,1.75 9.625,1.75 Z M9.625,3.5 C10.1082492,3.5 10.5,3.89175084 10.5,4.375 L10.5,4.375 L10.5,9.26256313 L12.8687184,11.6312816 C13.2104272,11.9729903 13.2104272,12.5270097 12.8687184,12.8687184 C12.5270097,13.2104272 11.9729903,13.2104272 11.6312816,12.8687184 L11.6312816,12.8687184 L9.00628157,10.2437184 C8.84218724,10.0796241 8.75,9.85706443 8.75,9.625 L8.75,9.625 L8.75,4.375 C8.75,3.89175084 9.14175084,3.5 9.625,3.5 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Home" transform="translate(-402.000000, -434.000000)">
+            <g id="clock" transform="translate(402.875000, 434.875000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="COLOR/-black" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g transform="translate(-0.875000, -0.875000)" id="Rectangle">
+                        <rect x="0" y="0" width="21" height="21"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

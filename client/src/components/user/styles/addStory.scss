@@ -1,0 +1,109 @@
+.user-main {
+  box-sizing: border-box;
+  color: white;
+  p,
+  label {
+    font-family: poppins;
+  }
+  .addStory {
+    textarea {
+      width: 100% !important;
+    }
+    .submit-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+    }
+    .submit-btn {
+      width: 200px !important;
+      margin: 10px 10px !important;
+    }
+    .submit-game {
+      border: 1px solid #ffcd34;
+      color: #ffcd34;
+      transition: 0.3s;
+    }
+    .submit-game:hover {
+      background: #ffcd3421;
+    }
+    .time-message {
+      font-size: 14px;
+    }
+    .game-attributes {
+      margin: 35px 0;
+    }
+    div.attribute-single {
+      margin: 15px;
+    }
+    div.attribute-single div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      //   div {
+      //     display: inline;
+      //   }
+      .h4-set {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        width: 150px;
+        flex-shrink: 0;
+      }
+
+      .input-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      p {
+        font-size: 14px;
+        display: block;
+        padding-left: 150px;
+      }
+    }
+    .tags-set p span {
+      font-family: Poppins-Regular;
+      font-size: 12px;
+      color: #c1bfbf;
+      padding: 5px 10px;
+      margin-left: 8px;
+      border-radius: 4px;
+      background: rgba(49, 49, 49, 0.94);
+      transition: 0.4s;
+      cursor: pointer;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    .tags-set .input-container {
+      width: 100% !important;
+      .setting-field {
+        width: 100% !important;
+      }
+    }
+    .tags-set p span:hover {
+      background: rgba(78, 78, 78, 0.94);
+    }
+    .desc-set {
+      margin-top: 30px !important;
+      textarea {
+        width: 100%;
+      }
+    }
+    select {
+      width: 200px !important;
+    }
+    .cover-set {
+      .input-container,
+      .setting-field {
+        width: 70% !important;
+      }
+    }
+  }
+}

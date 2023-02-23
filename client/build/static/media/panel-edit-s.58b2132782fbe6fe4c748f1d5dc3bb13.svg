@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="75px" viewBox="0 0 73 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit-3</title>
+    <defs>
+        <filter x="-23.8%" y="-51.9%" width="147.5%" height="203.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.470588235   0 0 0 0 0.847058824   0 0 0 0 0.741176471  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M7.5,1.50888348 L1.25,7.75888348 L1.25,9.375 L2.86611652,9.375 L9.11611652,3.125 L7.5,1.50888348 Z M7.94194174,0.183058262 L10.4419417,2.68305826 C10.6860194,2.92713594 10.6860194,3.32286406 10.4419417,3.56694174 L3.56694174,10.4419417 C3.4497315,10.559152 3.29076031,10.625 3.125,10.625 L0.625,10.625 C0.279822031,10.625 0,10.345178 0,10 L0,7.5 C0,7.33423969 0.0658480252,7.1752685 0.183058262,7.05805826 L7.05805826,0.183058262 C7.30213594,-0.0610194206 7.69786406,-0.0610194206 7.94194174,0.183058262 Z M0.625,13.75 L11.875,13.75 C12.220178,13.75 12.5,13.470178 12.5,13.125 C12.5,12.779822 12.220178,12.5 11.875,12.5 L0.625,12.5 C0.279822031,12.5 0,12.779822 0,13.125 C0,13.470178 0.279822031,13.75 0.625,13.75 Z" id="path-2"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Home" transform="translate(-705.000000, -251.000000)">
+            <g id="编组-13" transform="translate(402.000000, 256.000000)">
+                <g id="编组-14" filter="url(#filter-1)" transform="translate(312.000000, 0.000000)">
+                    <g id="edit-3" transform="translate(22.250000, 24.625000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <g id="COLOR/-black" mask="url(#mask-3)" fill="#FFFFFF">
+                            <g transform="translate(-1.250000, -0.625000)" id="Rectangle">
+                                <rect x="0" y="0" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

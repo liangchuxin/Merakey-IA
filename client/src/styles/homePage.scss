@@ -1,0 +1,186 @@
+$merakey-gold: #ffcd34;
+$merakey-grey: #d0d0d0;
+.homePage {
+  background: url("https://cdn.jsdelivr.net/gh/liangchuxin/blog-imgs/img/202202270955182.png");
+  .main-home {
+    display: flex;
+    flex-direction: row;
+    margin-left: 57px;
+    position: relative;
+    height: calc(-79px + 100vh);
+  }
+  .leaderboard-container {
+    h3 {
+      font-family: Poppins-BlackItalic;
+      font-size: 36px;
+      color: $merakey-grey;
+      letter-spacing: 0.39px;
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 70px;
+      span {
+        color: $merakey-gold;
+      }
+    }
+    .leaderboard {
+      width: 683px;
+      // img {
+      //   width: 683px;
+      //   position: absolute;
+      //   left: 0;
+      //   bottom: 0;
+      // }
+      table {
+        font-size: 12px;
+        margin-top: 25px;
+        border: 0;
+        border-top: 1px solid #292828;
+        backdrop-filter: blur(8px);
+        border-radius: 0;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        tr:first-child td:first-child {
+          border-top-left-radius: 3px;
+        }
+        tr:first-child td:last-child {
+          border-top-right-radius: 3px;
+        }
+        tr:first-child td,
+        tr:first-child th {
+          padding: 9px 15px;
+        }
+        tr:last-child td,
+        tr:last-child th,
+        tr:nth-child(2) td,
+        tr:nth-child(2) th {
+          padding: 7px;
+        }
+        tr:nth-child(1) {
+          td:nth-child(1) {
+            color: white;
+          }
+        }
+        tr:nth-child(3),
+        tr:nth-child(4),
+        tr:nth-child(5) {
+          td:nth-child(1) {
+            color: #f7cf56;
+          }
+        }
+        tr {
+          td,
+          th {
+            padding: 19px 15px;
+            img {
+              width: 9px;
+              height: auto;
+              margin-right: 9px;
+              margin-bottom: -2px;
+            }
+          }
+          font-weight: 500;
+          background-color: #0e0e0ef6;
+          backdrop-filter: blur(8px);
+
+          td:nth-child(1) {
+            width: 50px;
+            padding-left: 25px;
+            color: #8e8e8e;
+          }
+          td:nth-child(2) {
+            width: 150px;
+            text-align: center;
+          }
+          td:nth-child(3) {
+            width: 100px;
+            text-align: center;
+            padding-left: 0;
+          }
+          td:nth-child(4) {
+            width: 90px;
+            text-align: center;
+            padding-left: 0;
+          }
+          td:nth-child(5) {
+            width: 150px;
+            text-align: center;
+            padding-left: 0;
+          }
+          td:nth-child(6) {
+            text-align: center;
+            width: 100px;
+            padding-left: 0;
+            color: #8e8e8e;
+          }
+        }
+      }
+    }
+  }
+  .story-card {
+    opacity: 0.71;
+    background: rgba(24, 24, 24, 0.94);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+    img {
+      vertical-align: top;
+      margin-right: 5px;
+      width: 13px;
+      height: 13px;
+      padding-top: 1px;
+    }
+  }
+  .story-card:hover {
+    opacity: 1;
+  }
+  .new-feed {
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .story-wide {
+    height: 257px;
+    width: 600px;
+    margin-bottom: 6px;
+    background-size: cover;
+  }
+  .story-grid {
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    .card {
+      margin: 18px 21.58px 0 0;
+      border-radius: 3px;
+      transform: translateY(0);
+      -webkit-box-orient: vertical;
+      box-sizing: border-box;
+      position: relative;
+      width: 185.42px;
+      height: 130px;
+    }
+    .card {
+      background-position: right;
+      background-size: cover;
+    }
+  }
+  button {
+    width: 600px;
+    margin-right: 58px;
+    cursor: pointer;
+    box-sizing: border-box;
+    // border: none;
+    border: 1.5px solid #292828;
+    border-radius: 5px;
+    padding: 9px;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .free-and-premium {
+    height: calc(-79px + 100vh);
+    img {
+      width: 100%;
+    }
+  }
+}

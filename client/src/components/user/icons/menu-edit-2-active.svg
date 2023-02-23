@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit-2</title>
+    <defs>
+        <path d="M1.41666667,10.2100679 L1.41666667,12.75 L3.95659873,12.75 L12.4565987,4.25 L9.91666667,1.71006794 L1.41666667,10.2100679 Z M10.417534,0.20746603 L13.9592006,3.7491327 C14.235822,4.02575407 14.235822,4.47424593 13.9592006,4.7508673 L4.7508673,13.9592006 C4.61802904,14.0920389 4.43786168,14.1666667 4.25,14.1666667 L0.708333333,14.1666667 C0.317131636,14.1666667 0,13.849535 0,13.4583333 L0,9.91666667 C0,9.72880499 0.0746277619,9.54863763 0.20746603,9.41579936 L9.41579936,0.20746603 C9.69242074,-0.0691553433 10.1409126,-0.0691553433 10.417534,0.20746603 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Home" transform="translate(-49.000000, -684.000000)">
+            <g id="编组-11" transform="translate(32.000000, 503.000000)">
+                <g id="编组-7" transform="translate(0.000000, 168.000000)">
+                    <g id="edit-2" transform="translate(17.416667, 13.416667)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#FFCD34" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="COLOR/-black" mask="url(#mask-2)" fill="#FFCD34">
+                            <g transform="translate(-1.416667, -1.416667)" id="Rectangle">
+                                <rect x="0" y="0" width="17" height="17"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

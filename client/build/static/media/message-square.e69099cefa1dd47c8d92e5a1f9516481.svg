@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>message-square</title>
+    <defs>
+        <path d="M3.75628157,12.5062816 C3.9203759,12.3421872 4.14293557,12.25 4.375,12.25 L14.875,12.25 C15.3582492,12.25 15.75,11.8582492 15.75,11.375 L15.75,2.625 C15.75,2.14175084 15.3582492,1.75 14.875,1.75 L2.625,1.75 C2.14175084,1.75 1.75,2.14175084 1.75,2.625 L1.75,14.5125631 L3.75628157,12.5062816 Z M4.73743687,14 L1.49371843,17.2437184 C0.94249918,17.7949377 0,17.4045417 0,16.625 L0,2.625 C0,1.17525253 1.17525253,0 2.625,0 L14.875,0 C16.3247475,0 17.5,1.17525253 17.5,2.625 L17.5,11.375 C17.5,12.8247475 16.3247475,14 14.875,14 L4.73743687,14 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Home" transform="translate(-374.000000, -437.000000)">
+            <g id="message-square" transform="translate(374.750000, 437.750000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="COLOR/-black" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g transform="translate(-1.750000, -1.750000)" id="Rectangle">
+                        <rect x="0" y="0" width="21" height="21"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
