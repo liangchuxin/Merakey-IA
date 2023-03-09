@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Merakey-IA/static/css/main.e02a5b38.css",
-    "main.js": "/Merakey-IA/static/js/main.1a306660.js",
+    "main.js": "/Merakey-IA/static/js/main.4b15b5fc.js",
     "static/js/787.05d8adef.chunk.js": "/Merakey-IA/static/js/787.05d8adef.chunk.js",
     "static/media/free-and-premium.png": "/Merakey-IA/static/media/free-and-premium.c8d0d7e90285c149ee73.png",
     "static/media/game-leaderboard.png": "/Merakey-IA/static/media/game-leaderboard.effcdfd4a5ae841d073e.png",
@@ -60,11 +60,11 @@
     "static/media/check.svg": "/Merakey-IA/static/media/check.4e4179708d45ce794e73.svg",
     "index.html": "/Merakey-IA/index.html",
     "main.e02a5b38.css.map": "/Merakey-IA/static/css/main.e02a5b38.css.map",
-    "main.1a306660.js.map": "/Merakey-IA/static/js/main.1a306660.js.map",
+    "main.4b15b5fc.js.map": "/Merakey-IA/static/js/main.4b15b5fc.js.map",
     "787.05d8adef.chunk.js.map": "/Merakey-IA/static/js/787.05d8adef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e02a5b38.css",
-    "static/js/main.1a306660.js"
+    "static/js/main.4b15b5fc.js"
   ]
 }
